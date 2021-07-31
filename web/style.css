@@ -1,0 +1,194 @@
+
+/* BASIC */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#start1{
+    font-size:70px; 
+    font-family:monospace header; 
+    color:red;
+}
+
+/* Navbar */
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+/* Slider*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Body */
+.head1{
+    text-align: center;
+}  
+
+.para1{
+    font-family:cursive;
+    font-size: 35px;
+    text-align: justify;
+}
+
+.smimg
+{
+    background-image: url('pic/body5.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height:750px;
+}
+
+.middleset{
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+
+.middleset h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    padding:20px;
+}
+/* Footer Social */
+.lastsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+.socialsetting{
+    margin: 50px 0px !important;
+    height:100%;
+    width:100%;
+    font-size: 50px;
+}
+
+.fa-facebook{
+    margin-top:25px;
+    margin-left: 35px;
+
+}
+
+.fa-instagram{
+    margin-top:25px; 
+    margin-left: 30px;
+}
+
+.fa-youtube{
+    margin-top:25px; 
+    margin-left: 30px;
+}
+
+.fa-google{
+    margin-top:25px; 
+    margin-left: 30px;
+}
+
+.foot1{
+    padding: 5px;
+    height:100%;
+    width:100%;
+}
+
+.para3{
+    color:white;
+    font-size: 30px;
+    font-family:cursive;
+}
+.para4{
+    color:white;
+    font-size: 23px;
+    font-family:cursive;
+}
+
+.list3{
+    font-size: 30px; 
+    font-family: fantasy;
+    text-align: justify;
+}
+/***Responsie****/
+
+/***Mobile****/
+@media screen and (max-width:600px){
+
+    .head1{
+        text-align: center;
+        font-size: 10px;
+    }
+    #start1{
+        font-size:20px; 
+        font-family:monospace header; 
+        color:red;
+    }
+    .para1{
+        font-family:cursive;
+        font-size: 20px;
+    }
+    .smimg
+    {
+        height:650px;
+    } 
+    .middleset{
+        padding-top: 60px;
+        box-sizing: border-box;
+    }
+
+    .middleset h1{
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+        padding:20px;
+    }
+    .list3{
+        font-size: 20px; 
+        font-family: fantasy;
+    }
+    .para3{
+        color:white;
+        font-size: 25px;
+        font-family:cursive;
+    }
+    .para4{
+        color:white;
+        font-size: 15px;
+        font-family:cursive;
+    }
+    .lastsetting{
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+    .socialsetting{
+        margin: 30px 0px !important;
+        height:100%;
+        width:100%;
+        font-size: 32px;
+    }
+    .fa-facebook{
+        margin-top:10px;
+        margin-left: 15px;
+
+    }
+
+    .fa-instagram{
+        margin-top:5px; 
+        margin-left: 10px;
+    }
+
+    .fa-youtube{
+        margin-top:5px; 
+        margin-left: 10px;
+    }
+
+    .fa-google{
+        margin-top:6px; 
+        margin-left: 10px;
+    }
+
+}

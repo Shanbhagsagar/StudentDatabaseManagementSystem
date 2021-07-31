@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contactus</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="contact.css"/>       
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> 
+        <!--AOS-->
+        <link rel="stylesheet" href="aos-master/dist/aos.css" />
+    </head>
+    <body>
+        <!--Nav Bar-->
+        <div class="bgimg">
+            <nav class="navbar navbar-expand-md bg-danger navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <a href="" class="navbar-brand text-warning font-weight-bold">
+                        <img src="pic/logo.jpg" width="200px" height="60px"/></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+                        <span class="navbar-toggler-icon"></span>     
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsenavbar">
+
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link text-white text-center">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="aboutus.html" class="nav-link text-white text-center">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="courses.html" class="nav-link text-white text-center">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link text-white text-center">Contact us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Login
+                                </a>
+                                <div class="dropdown-menu  text-center" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item " href="login.jsp">Student Desk</a>
+                                    <div class="dropdown-divider "></div>
+                                    <a class="dropdown-item" href="adminlogin.jsp">Admin Login</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>   
+                </div> 
+            </nav>
+        </div> <br/><br/>
+
+        <!--Content-->
+
+        <div class="how-section1">
+            <div class="row" data-aos="fade-up" data-duration="100">
+                <div class="col">
+                    <div class="contact-form">
+                        <p class="title">Contact Us</p>
+                        <p class="subtitle">We are here assist you.</p>
+                        <form action="contact1" method="post">
+                            <input class="width1" type="text" name="name" placeholder="Your Name" />
+                            <input class="width1" type="email" name="e-mail" placeholder="Your E-mail Adress" />
+                            <input class="width1" type="tel" name="phone" placeholder="Your Phone Number"/>
+                            <textarea class="width1" name="enquiry" rows="8" placeholder="Your Message"></textarea>
+                            <button class="btn-send">Get a Call Back</button>
+                        </form>
+                    </div>      
+                </div>
+                <div class="col">
+                    <p class="title1">Our Location:</p>
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="394" height="591" id="gmap_canvas" src="https://maps.google.com/maps?q=saint%20angelos%20thane&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe>
+                        </div>
+                        <style>
+                            .mapouter{position:relative;text-align:right;height:591px;width:385px;}
+                            .gmap_canvas {overflow:hidden;background:none!important;height:591px;width:385px;}
+                        </style></div>
+                </div>
+
+            </div>
+        </div>    
+        <!--Footer-->
+        <div class="foot1 bg-dark">
+            <p class="para3">Follow us:</p>
+            <div class="row socialsetting">
+                <div class="col" data-aos="fade-down" data-duration="100">
+                    <div class="lastsetting d-block m-auto bg-danger">
+                        <a href="#"> <i class="fa fa-facebook text-white"></i></a>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-down" data-duration="200">
+                    <div class="lastsetting d-block m-auto bg-danger">
+                        <a href="#"><i class="fa fa-instagram  text-white"></i></a>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-down" data-duration="300">
+                    <div class="lastsetting d-block m-auto bg-danger">
+                        <a href="#"><i class="fa fa-youtube text-white"></i></a>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-down" data-duration="400">
+                    <div class="lastsetting d-block m-auto bg-danger">
+                        <a href="#"><i class="fa fa-google text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="para4">Career Helpline:986 786 3333 / 986 786 4444</p>
+            <p class="para4">Contact Timings - (Monday - Saturday) 10.00 AM to 07.00 PM</p>
+        </div>
+        <!--AOS-->
+        <script src="aos-master/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                easing: 'ease-in-out-sine'
+            });
+        </script>   
+    </body>
+</html>

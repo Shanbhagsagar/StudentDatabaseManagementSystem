@@ -1,0 +1,163 @@
+/***Basic****/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/***Navbar****/
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+}
+/***Body****/
+.bgimg{
+    background-image: url('pic/about1.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height:750px;
+}
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+    text-align: justify;
+}
+.start1{
+    font-size: 50px;
+    font-family: fantasy;
+}
+.bgimg1{
+    background-image: url('pic/awards.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height:750px;
+}
+.middleset{
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.middleset h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: red;
+    padding:20px;
+}
+.list5{
+    font-size: 16px;
+}
+.start2{
+    font-size: 50px;
+    font-family: fantasy;
+}
+.p1{
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bold;
+}
+/***Footer Social Setting****/
+.lastsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.socialsetting{
+    margin: 50px 0px !important;
+    height:100%;
+    width:100%;
+    font-size: 50px;
+}
+.fa-facebook{
+    margin-top:25px;
+    margin-left: 35px;
+}
+.fa-instagram{
+    margin-top:25px; 
+    margin-left: 30px;
+}
+.fa-youtube{
+    margin-top:25px; 
+    margin-left: 30px;
+}
+.fa-google{
+    margin-top:25px; 
+    margin-left: 30px;
+}
+.foot1{
+    padding: 5px;
+    height:100%;
+    width:100%;
+}
+
+.para3{
+    color:white;
+    font-size: 30px;
+    font-family:cursive;
+}
+.para4{
+    color:white;
+    font-size: 23px;
+    font-family:cursive;
+}
+/***End of Big Screen****/
+
+/***Responsie****/
+
+/***Mobile****/
+@media screen and (max-width:600px){
+    .start1{
+        font-size:30px ;
+    }    
+    .para3{
+        color:white;
+        font-size: 25px;
+        font-family:cursive;
+    }
+    .para4{
+        color:white;
+        font-size: 15px;
+        font-family:cursive;
+    }
+    .lastsetting{
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+    .socialsetting{
+        margin: 30px 0px !important;
+        height:100%;
+        width:100%;
+        font-size: 32px;
+    }
+    .fa-facebook{
+        margin-top:10px;
+        margin-left: 15px;
+    }
+
+    .fa-instagram{
+        margin-top:5px; 
+        margin-left: 10px;
+    }
+
+    .fa-youtube{
+        margin-top:5px; 
+        margin-left: 10px;
+    }
+
+    .fa-google{
+        margin-top:6px; 
+        margin-left: 10px;
+    }
+    .middleset{
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    .middleset h1{
+        font-size: 22px;
+        font-weight: bold;
+        color: red;
+        padding:20px;
+    }
+    .middleset ul li{
+        font-size: 16px;
+    }
+}

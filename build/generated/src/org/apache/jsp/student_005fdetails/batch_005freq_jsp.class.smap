@@ -1,0 +1,10 @@
+SMAP
+batch_005freq_jsp.java
+JSP
+*S JSP
+*F
++ 0 batch_req.jsp
+student_details/batch_req.jsp
+*L
+1,353:44
+*E
